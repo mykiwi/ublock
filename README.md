@@ -1,6 +1,7 @@
 # Content blocked
 
 - Youtube Shorts
+- Twitch Stories
 
 
 ---

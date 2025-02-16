@@ -1,6 +1,6 @@
 ! Title: github.com/mykiwi/ublock
 ! Description: github.com/mykiwi/ublock
-! Version: 1.0.0
+! Version: 1.1.0
 ! Last modified: 2024-08-31 19:24
 ! Expires: 2 weeks (update frequency)
 ! Homepage: https://github.com/mykiwi/ublock
@@ -68,3 +68,15 @@ m.youtube.com##ytm-reel-shelf-renderer.item:has(.reel-shelf-title-wrapper:has-te
 
 ! Hide shorts tab on channel pages
 m.youtube.com##.single-column-browse-results-tabs>a:has-text(Shorts)
+
+
+
+!------------------------------------------------------------------------------
+!---------------------------- TWITCH STORIES ----------------------------------
+!------------------------------------------------------------------------------
+
+! Removes the Stories in the following page
+www.twitch.tv##.sr-only:upward(5)
+
+! Removes the Stories in the left side navigation section
+www.twitch.tv##[class*="storiesLeftNavSection"]
